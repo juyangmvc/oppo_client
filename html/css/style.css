@@ -1,0 +1,514 @@
+/*---------------------------公用样式-----------------------*/
+* {
+    font-family: "微软雅黑";
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/*header*/
+header {
+    background: #EFEFEF;
+}
+
+.new-product {
+    text-align: center;
+    display: inline-block;
+    margin: 1rem auto;
+    font-size: 1rem;
+    border: 1px solid black;
+    line-height: 1.6rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    margin-left: calc(50% - 2.25rem);
+}
+
+/*标题*/
+.big-title {
+    text-align: center;
+}
+
+.big-title h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.big-title h2 {
+    font-weight: normal;
+    color: #232323;
+}
+
+.big-title span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #E1001C;
+    line-height: 3.4rem;
+}
+
+.big-title a {
+    display: block;
+    font-size: 1.3rem;
+    color: #FF6725;
+
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*product-产品*/
+.product {
+    background: #DD3041;
+    padding-bottom: 1.2rem;
+}
+
+.product-title {
+    text-align: center;
+    color: #FDFFF9;
+}
+
+.product-title h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    line-height: 4.3rem;
+}
+
+.product-title h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.product li {
+    width: 94%;
+    background: white;
+    margin: 0 auto;
+    height: 220px;
+    margin-bottom: 1rem;
+}
+
+.product li .iphone {
+    display: inline-block;
+    width: 35%;
+    margin: 0 15px;
+    height: 70%;
+    margin-top: calc(50% - 40%);
+}
+
+/*product-text*/
+.product-text {
+    width: 53%;
+    margin-top: 2rem;
+}
+
+.product-text h2 {
+    font-weight: normal;
+    color: #323232;
+    font-size: 1.7rem;
+
+}
+
+.product-text h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #8D8D8D;
+}
+
+.product-text .giving {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient(90deg, rgb(243, 162, 29) 0%, rgb(239, 199, 26) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(243, 162, 29) 0%, rgb(239, 199, 26) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(243, 162, 29) 0%, rgb(239, 199, 26) 100%);
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.product-text .price {
+    color: #DE001A;
+    font-weight: 600;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.product-text .sold {
+    font-size: 0.9rem;
+    color: #8F8F8F;
+}
+
+.product-text .buy {
+    float: right;
+    background-image: -moz-linear-gradient(171deg, rgb(255, 107, 7) 0%, rgb(255, 158, 90) 100%);
+    background-image: -webkit-linear-gradient(171deg, rgb(255, 107, 7) 0%, rgb(255, 158, 90) 100%);
+    background-image: -ms-linear-gradient(171deg, rgb(255, 107, 7) 0%, rgb(255, 158, 90) 100%);
+    line-height: 2.5rem;
+    display: block;
+    width: 5rem;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -14%;
+}
+
+.product-text .right {
+    vertical-align: middle;
+}
+
+/*security-保障*/
+.security {
+    background: #CA0123;
+
+}
+
+.security {
+    padding: 1.6rem 0;
+}
+
+.security li {
+    width: 33.3%;
+    float: left;
+}
+
+.security li img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.security li span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+/******************************产品详情-details*****************************************/
+.shuffling img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.shuffling-text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.shuffling-text h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.shuffling-text h4 {
+    color: #959595;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 2.8rem;
+}
+
+.shuffling-text .price {
+    color: #E62238;
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: block;
+
+}
+
+.shuffling-text .spot {
+    color: #FF6D29;
+    border: 1px solid #FF6D29;
+    border-radius: 3px;
+    display: block;
+    width: 5rem;
+    margin: 1rem auto;
+}
+
+/*specifications-产品规格*/
+.specifications {
+    border-top: 6px solid #F2F2F2;
+    border-bottom: 6px solid #F2F2F2;
+    padding: 0 1rem;
+    height: 2.8rem;
+}
+
+.specifications span {
+    display: inline-block;
+    line-height: 2.8rem;
+
+}
+
+.specifications p {
+    display: inline-block;
+    line-height: 2.8rem;
+    float: right;
+    color: #CD2333;
+    font-weight: 450;
+}
+
+/*parameter-产品参数*/
+.parameter h3 {
+    margin: 1.5rem auto;
+    border: 1px solid #363636;
+    width: 4.3rem;
+    height: 3.8rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+}
+
+.parameter li {
+    width: 92%;
+    margin: 0 auto;
+    border-top: 1px dashed #BEBEBE;
+    line-height: 3rem;
+}
+
+.parameter li span {
+    display: inline-block;
+    color: #C2C2C2;
+    width: 5rem;
+}
+
+.parameter li p {
+    display: inline-block;
+    font-weight: 500;
+    color: #323232;
+}
+
+.parameter li:last-child {
+    border-bottom: 1px dashed #BEBEBE;
+    margin-bottom: 1rem;
+}
+
+.details-buy {
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 4rem;
+    color: white;
+    font-size: 1.5rem;
+    background: #FC6821;
+}
+
+/*********************after-客户维修服务中心*******************/
+.after-top {
+    background: #161616;
+    padding: 1rem 0.5rem;
+
+}
+
+.after-top h1 {
+    color: #E1E1E1;
+    font-family: "兰亭黑-简";
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.after-top p {
+    text-align: center;
+    font-size: 0.6rem;
+    color: #E1E1E1;
+}
+
+.after-top-l {
+    max-width: 45%;
+    float: left;
+    margin-right: 6%;
+}
+
+.after-top-r span {
+    color: #E1E1E1;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    float: left;
+}
+
+.after-top-r img {
+    vertical-align: middle;
+    float: left;
+}
+
+.after-top-r h3 {
+    color: #E1E1E1;
+    float: right;
+    line-height: 34px;
+}
+
+.after-top-r {
+    border-left: 1px solid #1B81EE;
+    padding-left: 0.5rem;
+}
+
+/*after-text*/
+.after-text {
+    padding-top: 5rem;
+}
+
+.after-text h3 {
+    color: #FEFEFC;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.6rem;
+    letter-spacing: 1.3px;
+}
+
+.after-line {
+    width: 7rem;
+    height: 2px;
+    margin: 1rem auto;
+    background: white;
+
+}
+
+.after-text p {
+    color: #FEFEFC;
+    text-align: center;
+    line-height: 2.6rem;
+    font-size: 0.9rem;
+}
+
+.bold {
+    font-weight: 700;
+    color: #FFFFFD;
+    font-size: 1rem;
+}
+
+/*after-input*/
+.after-input h1 {
+    color: #1A84F2;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.after-input img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.after-input input {
+    display: block;
+    width: 90%;
+    margin: 0.7rem auto;
+    border-radius: 6px;
+    border: 1px solid #1B81F3;
+    line-height: 2rem;
+    padding-left: 0.6rem;
+    background: rgba(5, 26, 71, 0.5);
+    color: white;
+    font-size: 0.8rem;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 0.8rem;
+    line-height: 36px;
+}
+
+.after-input p {
+    text-align: center;
+    color: #FFFFFD;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-bottom: 1px dashed #1C85F4;
+    width: 75%;
+    padding-bottom: 2px;
+
+}
+
+.after-input a{
+    text-align: center;
+    display: block;
+    width: 90%;
+    margin: 1.6rem auto;
+    border-radius: 5px;
+    border: 1px solid #1E80F2;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-weight: normal;
+    background-image: -moz-linear-gradient( 0deg, rgb(5,59,183) 0%, rgb(4,45,159) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(5,59,183) 0%, rgb(4,45,159) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(5,59,183) 0%, rgb(4,45,159) 100%);
+}
+.bottom img{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+.bottom p{
+    color: #FEFEFC;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+/***************************feedback-反馈***************************/
+.feedback li{
+    background: white;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF ;
+    padding: 0 1rem;
+    margin: 1rem auto;
+}
+.feedback li h4{
+    font-size: 1.2rem;
+    color: #333333;
+    line-height: 2.5rem;
+}
+
+.feedback li span{
+    color: #B9B9B9;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+.feedback li .fk,.wfk{
+    background: #ED357A;
+    color: white;
+    border-radius: 50%;
+    line-height: 3rem;
+    width: 3rem;
+    text-align: center;
+    margin-top: -5.4rem;
+}
+
+.feedback li .wfk{
+    background: #D9D9D9;
+    color: #909090;
+    font-size: 0.7rem;
+}
